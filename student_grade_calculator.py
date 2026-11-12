@@ -50,5 +50,6 @@ else:
 
 
         print(f"\nStudent Name: {name}")
-        print(f"Average Marks: {average_marks:.2f}")
+        print(f"Total Marks : { marks_math + marks_english + marks_python }")
+        print(f"Average  : {average_marks:.2f}")
         print(f"Final Grade: {grade}\n\n")

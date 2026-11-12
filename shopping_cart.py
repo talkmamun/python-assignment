@@ -9,7 +9,7 @@ def checking_numeric_value_input(data):
     
   while True:
     try:
-        price = int(input(f"Enter {data} :: "))
+        price = int(input(f" {data}  "))
         if price<0:
            print("Enter Positive value")
         else:   
@@ -17,7 +17,7 @@ def checking_numeric_value_input(data):
     except ValueError:
         print("Invalid Input! Please enter a numeric value.")
     
-#=================================================================================
+#=============== Main ==================================================================
 
 name = input("\n\nEnter your name: ")  
 
@@ -64,6 +64,6 @@ print(f"Price 2:: {product2_price}")
 print(f"\nProduct 3:: {product3_name}")
 print(f"Price 3:: {product3_price}")
 
-print(f"\nSubtotal: {subtotal}")      
-print(f"Discount: {discount}")
-print(f"Final Total: {final_total}")
+print(f"\nSubtotal: {subtotal:.2f}")      
+print(f"Discount: {discount:.2f}")
+print(f"Final Total: {final_total:.2f}\n")
