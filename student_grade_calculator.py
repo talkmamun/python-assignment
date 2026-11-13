@@ -39,10 +39,8 @@ else:
         elif average_marks >= 70:
             grade = "A"
         elif average_marks >= 60:
-            grade = "A-"
-        elif average_marks >= 50:
             grade = "B"
-        elif average_marks >= 40:
+        elif average_marks >= 50:
             grade = "C"
         else:
             grade = "F"
